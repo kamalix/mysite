@@ -1,3 +1,4 @@
+{% load blog_tags %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,11 @@
 
 <body>
     
-    <p>{{post.content}}</p>
+    <p>test: {% posts as totalposts %}</p>
+    
+    {% for post in totalposts %}
+        <p>{{post.content|snipet:100}}</p>
+    {% endfor %}
     
     
 </body>
