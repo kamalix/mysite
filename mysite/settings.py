@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'robots',
     'debug_toolbar',
     'blog',
+    'django_summernote',
     'taggit'
 ]
 
@@ -156,3 +157,5 @@ INTERNAL_IPS = [
     "127.0.0.1",
     
 ]
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
