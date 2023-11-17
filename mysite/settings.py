@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'blog',
     'django_summernote',
-    'taggit'
+    'taggit',
+    'captcha'
 ]
 
 #site framework
