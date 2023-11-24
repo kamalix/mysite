@@ -1,8 +1,4 @@
-asgiref==3.7.2
 Django>3.2,<3.3
-pytz==2023.3.post1
-sqlparse==0.4.4
-typing-extensions==4.8.0
 pillow
 django-multi-captcha-admin
 django-robots
@@ -10,6 +6,6 @@ django-simple-captcha
 django-summernote
 django-taggit
 django-utils-six
-faker
+Faker
 django-compressor
 django-debug-toolbar
