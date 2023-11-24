@@ -7,9 +7,9 @@ from mysite.settings import *
 SECRET_KEY = 'django-insecure-+1pr5*=^z=9$nz2h$b+k)msn8&0=n#ebk^lb5q910^b0e@cqr='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kamal-amani.ir','www.kamal-amani.ir']
 
 #INSTALLED_APPS = []
 
